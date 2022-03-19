@@ -1,0 +1,92 @@
+/* <style> */
+/* CSS Reset */
+/* body {
+      color: black;
+      margin: 0px;
+      padding: 0px;
+      /* background: url("IT262 Assignments/images/gym.jpg");
+
+      background-image: url("IT262 Assignments/images/gym.jpg");
+      background: url("images/gym.jpg"); */
+
+body {
+  font-family: "Baloo Bhai", cursive;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("https://drive.google.com/file/d/1f1VNUdzcSYKJHOoWtHg46OWt9UnaaMw_/view?usp=sharing");
+  /* background-image: ; */
+}
+
+.left {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  display: inline-block;
+  border: 2px solid red;
+}
+
+.left img {
+  float: left;
+  width: 120px;
+}
+
+.left div {
+  line-height: 20px;
+  font-size: 20px;
+
+  text-align: center;
+}
+.mid {
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+  border: 2px solid yellow;
+}
+.right {
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  display: inline-block;
+
+  border: 2px solid blue;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+  /* text-align: center; */
+}
+
+.navbar li a {
+  color: white;
+  padding: 35px 25px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: blue;
+}
+
+.btn {
+  font-family: "Baloo Bhai", cursive;
+  margin: 0px 9px;
+  color: white;
+  background-color: black;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 9px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+/* </style> */
